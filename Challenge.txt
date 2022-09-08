@@ -1,0 +1,31 @@
+
+
+using System;
+public class ClassExample
+{
+}
+
+public class ClassWithVariables
+{
+    int number = 2;
+    string userName = "Bob";
+	double doubleNumber = 47.62;
+	char character = 'q';
+}
+				
+public class ClassWithFunctions
+{
+	public static void Main()
+	{
+		int number = 17;
+    	string userName = "Bob";
+		string namename = "Katie the Great";
+		Console.WriteLine("Running Function");
+		Console.WriteLine(number);
+		Console.WriteLine(namename);
+		Console.WriteLine(userName);
+		int x = 21;
+			Console.WriteLine(x-number);
+			Console.WriteLine(x+=number);
+	}
+}
