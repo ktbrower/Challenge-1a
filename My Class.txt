@@ -1,6 +1,42 @@
-	public int Strength;
+using System;
+					
+public class Program
+{
+	public Human Katie;
+	public Human Hannah;
+	
+	public void Main()
+	{
+		Katie = new Human();
+		Hannah = new Human();
+		
+		Katie.Strength = 2;
+		Katie.Dexterity = 5;
+		Katie.Constitution = 2;
+		Katie.Wisdom = 4;
+		Katie.Intelligence = 4;
+		Katie.Charisma = 6;
+		
+		Hannah.Strength = 2;
+		Hannah.Dexterity = 4;
+		Hannah.Constitution = 2;
+		Hannah.Wisdom = 1000;
+		Hannah.Intelligence = 1000;
+		Hannah.Charisma = 5;
+		
+		Console.WriteLine(Katie.Dexterity);
+		Console.WriteLine(Katie.Charisma);
+		
+		Console.WriteLine(Hannah.Constitution);
+		Console.WriteLine(Hannah.Intelligence);
+	}
+}
+
+public class Human {
+		public int Strength;
 		public int Dexterity;
 		public int Constitution;
 		public int Wisdom;
 		public int Intelligence;
 		public int Charisma;
+}
