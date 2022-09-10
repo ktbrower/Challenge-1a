@@ -24,14 +24,35 @@ public class Program
 	}
 }
 
-public class Hero 
-{
-	public Hero heroThree;
-	public Hero heroFour;	
-	
-	
-		
+public class Hero {
 	public int health;
 	public int powerLevel;
+	public int mana;
+	public int energy;
 	
+	public Hero heroThree;
+	public Hero heroFour;
 	
+	public void Main()
+	{
+		heroThree = new Hero(); 
+		heroFour = new Hero();
+	
+	heroThree.health = 6;
+	heroThree.powerLevel = 2;
+	heroThree.mana = 9;
+	heroThree.energy = 4;
+		
+	heroFour.health = 9;
+	heroFour.powerLevel = 4;
+	heroFour.mana = 2;
+	heroFour.energy = 6;
+		{	
+	Console.WriteLine("hello world");
+	Console.WriteLine(heroThree.powerLevel);
+	Console.WriteLine(heroThree.mana);
+		
+	Console.WriteLine(heroFour.health);
+	Console.WriteLine(heroFour.energy);
+}}
+}
